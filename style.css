@@ -149,12 +149,6 @@ z-index:1;
     white-space: nowrap;
 }
 
-/*ydre ramme om karrusellen*/
-.karousel{
-    width: 100%;
-    overflow: hidden;
-}
-
 /*hvert enkelt produktboks*/
 .lille-boks{
     text-decoration: none;
@@ -191,25 +185,6 @@ z-index:1;
     margin-bottom:30px;
     margin-top:100px;
     align-items: center;
-}
-
-/*Båndet der glider, nederste linje gør at den kører den evige glide-effekt*/
-.karousel-track{
-    display: flex;
-    gap:10px;
-    width: max-content;
-    animation:glide 100s linear infinite;
-}
-
-/*pauser animationen når musen holdes hen over*/
-.karousel-track:hover{
-    animation-play-state: paused;
-}
-
-/*selve animationen, flytter banen fra sin startposition til halvvejs gennem sig selv*/
-@keyframes glide{
-    from { transform: translateX(0);}
-    to { transform: translateX(-50%);}
 }
 
 /*rammen omkring more than sound sektionen*/
