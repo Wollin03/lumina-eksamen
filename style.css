@@ -15,7 +15,12 @@ scroll-behavior: smooth;
 
 body{
 background-color: var(--background);
-margin:0;
+font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3{
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-weight: 600;
 }
 
 
@@ -33,7 +38,6 @@ margin:0;
     display:block;
 }
 
-
 /*hovedskrift+slogan*/
 .hero-tekst{
 position: absolute;
@@ -47,14 +51,11 @@ z-index:1;
 
 /*hovedskrift*/
 .hero-tekst h1{
-    font-family:'Cormorant Garamond', Georgia, serif;
-    font-weight:400;
     font-size:4.5rem;
     margin:0;
     letter-spacing: 0.15em;
     white-space: nowrap;
 }
-
 
 footer{
     background-color: var(--background);
@@ -63,16 +64,12 @@ footer{
     padding: 60px 80px;
 }
 
-
 .footer-overskrift{
-    font-family: 'Montserrat', sans-serif;
     font-size: 1.1rem;
     font-weight: 700;
     margin-top: 30px;
     margin-bottom: 20px;
 }
-
-
 
 .footer-links{
     list-style: none;
@@ -86,6 +83,6 @@ footer{
 .footer-links a{
     text-decoration: none;
     color: var(--text-color);
-    font-family: 'Cormorant Garamond', Georgia, Serif;
     font-size: 1.1rem;
+    font-family: 'Montserrat' sans-serif;
 }
