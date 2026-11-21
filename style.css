@@ -8,6 +8,7 @@ scroll-behavior: smooth;
     --background:#1F0A09;        /* 60% - mørk rødlig sort*/
     --secondary:#2C3A2E;         /* 30% - dyb regnskovsgrøn*/
     --accent:#E48D35;            /* 10% - rav: knapper og glød*/
+    --accent-hover:#F0B87A;      /* Hover effekt*/
     --accent-soft:#CD7965;       /* blød accent - koral-rosa*/
     --text-color:#F3E6D3;        /* creme tekst*/
     --headline-color:#F3E6D3;    /* creme overskrifter*/
@@ -23,7 +24,35 @@ h1, h2, h3{
     font-weight: 600;
 }
 
+.knap{
+    font-weight: 600;
+    padding: 14px 28px;
+    display:inline-block;
+    text-decoration: none;
+    border-radius: 100px;
+    transition: background-color 0.40s;
+}
 
+.knap-primaer{
+    background-color: #E48D35;
+    color: var(--background);
+}
+
+.knap-primaer:hover{
+    background-color:var(--accent-hover);
+}
+
+.knap-sekundaer{
+    background-color: var(--background);
+    border: 2px solid var(--text-color);
+    color: var(--text-color);
+}
+
+.knap-sekundaer:hover{
+    background-color: var(--accent);
+    color: var(--text-color);
+    border: none;
+}
 .logo img{
     width:100px;
     height:auto;
