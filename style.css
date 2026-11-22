@@ -25,6 +25,13 @@ h1, h2, h3{
     font-weight: 600;
 }
 
+header{
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:100%;
+    z-index:3;
+}
 .knap{
     font-weight: 600;
     padding: 14px 28px;
@@ -81,19 +88,18 @@ h1, h2, h3{
 .hero-tekst{
 position: absolute;
 top: 50%;
-left:50%;
-transform: translate(-50%, -50%);
+left:10%;
+transform: translate(-0%, -50%);
 color: var(--headline-color);
-text-align:center;
+text-align:left;
 z-index:1;
 }
 
 /*hovedskrift*/
 .hero-tekst h1{
-    font-size:4.5rem;
+    font-size: clamp(2.5rem, 6vw, 4.5rem);
     margin:0;
     letter-spacing: 0.15em;
-    white-space: nowrap;
 }
 
 footer{
@@ -124,4 +130,10 @@ footer{
     color: var(--text-color);
     font-size: 1.1rem;
     font-family: 'Montserrat' sans-serif;
+}
+
+@media (max-width: 768px){
+   .hero{
+    height: 100vh;
+   }
 }
