@@ -87,7 +87,7 @@ header{
 /*hovedskrift+slogan*/
 .hero-tekst{
 position: absolute;
-top: 50%;
+top: 70%;
 left:10%;
 transform: translate(-0%, -50%);
 color: var(--headline-color);
@@ -102,6 +102,16 @@ z-index:1;
     letter-spacing: 0.15em;
 }
 
+.hero-tekst p{
+    font-size: 1.2rem;
+    padding-bottom: 20px;
+    letter-spacing: 3px;
+}
+
+.hero-knapper{
+    display:flex;
+    gap:50px;
+}
 footer{
     background-color: var(--background);
     display: flex;
@@ -135,5 +145,8 @@ footer{
 @media (max-width: 768px){
    .hero{
     height: 100vh;
+   }
+   #hero-video{
+    object-position:75%;
    }
 }
