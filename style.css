@@ -52,14 +52,14 @@ header{
 
 .knap-sekundaer{
     background-color: var(--background);
-    border: 2px solid var(--text-color);
+    border: 1px solid var(--text-color);
     color: var(--text-color);
 }
 
 .knap-sekundaer:hover{
     background-color: var(--accent);
     color: var(--text-color);
-    border: none;
+    border: 1px solid var(--accent);
 }
 .logo img{
     width:100px;
