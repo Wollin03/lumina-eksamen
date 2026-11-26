@@ -156,6 +156,18 @@ footer{
     display:block;
 }
 
+.stemning-billeder img:first-child{
+    grid-row:span 2;
+}
+.stemning-billeder img:not(:first-child){
+    aspect-ratio:3/2;
+}
+
+#stemning{
+    max-width:1000px;
+    margin: n
+}
+
 @media (max-width: 768px){
    .hero{
     height: 100vh;
