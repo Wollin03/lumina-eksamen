@@ -16,6 +16,7 @@ scroll-behavior: smooth;
 
 body{
 background-color: var(--background);
+color:var(--text-color);
 font-family: 'Montserrat', sans-serif;
 margin:0px;
 }
@@ -168,6 +169,37 @@ footer{
     margin: n
 }
 
+.funktioner-liste{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    list-style:none;
+    padding:0px;
+}
+
+.led-prik{
+    display:block;
+    width:14px;
+    height:14px;
+    border-radius:100px;
+    background-color:var(--accent-soft);
+}
+
+.farve-knapper{
+    display:flex;
+    gap: 10px;
+}
+
+#farve-billede{
+    width: 300px;
+    display:block;
+}
+
+#farver{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
 @media (max-width: 768px){
    .hero{
     height: 100vh;
