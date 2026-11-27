@@ -200,6 +200,42 @@ footer{
     justify-content: center;
     gap: 16px;
 }
+
+#home-dock{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:16px;
+}
+
+#home-dock img{
+    max-width: 500px;
+}
+
+.anmeldelse-liste{
+    display:grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.anmeldelser{
+    background-color:#3a2a21;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#koeb{
+    text-align: center;
+}
+
+.pris{
+    font-size: 3rem;
+}
+
+.fordele{
+    list-style:none;
+    padding:0;
+}
 @media (max-width: 768px){
    .hero{
     height: 100vh;
